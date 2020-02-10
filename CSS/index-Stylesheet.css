@@ -1,0 +1,27 @@
+body
+{
+    margin:0;
+}
+
+aside
+{
+    text-align: left;
+    padding: 15px;
+    float: left;
+    background-color:lightgrey ;
+    margin-right: 10px;
+}
+
+h1
+{
+    background: red;
+    color: white;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+}
+
+h2
+{
+    padding-left: 15px;
+}
