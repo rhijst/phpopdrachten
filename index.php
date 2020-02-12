@@ -23,7 +23,6 @@
          <h1><?php echo "Uitwerking van PHP-opdrachten";?></h1>
             <aside>
                 <h2>Menu</h2>
-                <a href="../index.php">Home</a>
                 <ul>
                     <li>
                         Hoofdstuk 2
