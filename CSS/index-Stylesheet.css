@@ -7,9 +7,11 @@ aside
 {
     text-align: left;
     padding: 15px;
+    padding-top: 30px;
     float: left;
     background-color:lightgrey ;
     margin-right: 10px;
+    height: 94vh;
 }
 
 h1
@@ -21,7 +23,19 @@ h1
     text-align: center;
 }
 
+header
+{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+}
+
 h2
 {
     padding-left: 15px;
+}
+
+main
+{
+    padding-top:4% ;
 }

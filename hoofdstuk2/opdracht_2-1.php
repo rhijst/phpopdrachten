@@ -10,16 +10,21 @@
  */
 ?>
 <html lang="nl">
-    <header>
+    <head>
+        <title>
+
+        </title>
         <meta charset="utf-8">
         <meta name="description" content="opdracht X">
         <meta name="keywords" content="keyword 1, keyword 2">
         <meta name="viewport" content="width=divce=width, initial-scale">
         <link href="../CSS/index-Stylesheet.css" type="text/css" rel="stylesheet">
-    </header>
+    </head>
 
     <body>
+    <header>
         <h1><?php echo "Uitwerking van PHP-opdrachten";?></h1>
+    </header>
             <aside>
                 <h2>Menu</h2>
                 <a href="../index.php">Home</a>
@@ -88,7 +93,7 @@
                 </ul>
             </aside>
         <main id="wrapper">
-        <h2>Uitwerkingen</h2>
-    </main>
+            <h2>Uitwerkingen</h2>
+        </main>
     </body>
 </html>
