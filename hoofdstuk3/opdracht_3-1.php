@@ -1,10 +1,13 @@
 <?php
+
+//hier voeg ik een andere bestand toe zodat mijn header en side menu.
 include "../include/header.php";
 include "../include/aside.php";
 ?>
         <main id="wrapper">
             <h2>Uitwerkingen</h2>
             <?php
+                //hier maak ik de vairiebelen
                 $event = "Elfstedentocht";
                 $Alvestedetocht = "Alvestêdetocht";
                 $distance = 200;
@@ -16,7 +19,7 @@ include "../include/aside.php";
                 $vifteen = 15;
                 $first = 1909;
                 $one = 1;
-
+                //hier plak ik de variabelen in een verhaal.
                 $verhaal = "<p> 
                                 De " . $event . " (Fries:  " . $Alvestedetocht . ") is een " . $distance .
                                 " kilometer lange " . $skatingtour . " over " . $naice . " die wordt georganiseerd door de hoofdstad van " .

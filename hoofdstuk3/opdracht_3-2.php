@@ -5,10 +5,13 @@ include "../include/aside.php";
         <main id="wrapper">
             <h2>Uitwerkingen</h2>
             <?php
-                $trafficLightColor= "groen";
-                $ambulanceComing= false;
+
+            //hier maak ik een paar variebelen aan.
+                $trafficLightColor = "groen";
+                $ambulanceComing = true;
                 $driveOn = true;
 
+            // hier maak ik een if else statement aan om de goede kleur tegeven.
                 if ($trafficLightColor !="groen" || $ambulanceComing == true)
                 {
                        $driveOn= false;
@@ -28,7 +31,7 @@ include "../include/aside.php";
                         echo "<p style='color:red'> u mag nu niet door rijden </p>";
                 }
                 ?>
-
+<!--                hier voeg ik ik een tabel toe-->
             <table border="2px solid black">
                 <tr>
                     <td>
@@ -80,16 +83,27 @@ include "../include/aside.php";
             </table>
 
             <?php
-            $countryName= "";
-            $currentAge= "";
+            // hier maak ik deel 2 van de opdracht.
+            echo "<br> Opdracht 2b <br><br>";
+            $countryName= "België";
+            $currentAge= "18";
 
-            if ($currentAge <= 18)
+            if ($countryName == "België" && $currentAge == 16 || $countryName == "Bulgarije" && $currentAge >= 18 || $countryName == "Cyprus" && $currentAge <= 17 || $countryName == "Nederland" && $currentAge <= 18 || $countryName == "zwede" && $currentAge <= 18)
             {
-
+                echo "je woont in " . $countryName ." en bent " .$currentAge . "jaar oud.";
+                echo "je mag hier zwakke alcohol drinken.";
             }
-            elseif ($countryName == België)
-
-
+            elseif ($countryName == "België" && $currentAge >= 18 || $countryName == "Bulgarije" && $currentAge >= 18 || $countryName == "Cyprus" && $currentAge <= 17 || $countryName == "Nederland" && $currentAge <= 18 || $countryName == "zwede" && $currentAge <= 20)
+            {
+                echo "je woont in " . $countryName . " en bent " . $currentAge . "jaar oud.";
+                echo "je mag hier alle alcoholishe dranken drinken.";
+            }
+            elseif ($countryName == "België" && $currentAge < 16 || $countryName == "Bulgarije" && $currentAge < 18 || $countryName == "Cyprus" && $currentAge < 17 || $countryName == "Nederland" && $currentAge <= 18 || $countryName == "zwede" && $currentAge <= 18) {
+            {
+                echo "je woont in " . $countryName . " en bent " . $currentAge . "jaar oud.";
+                echo "je mag hier *geen* alcoholishe dranken drinken.";
+            }
+            }
             ?>
         </main>
 <?php

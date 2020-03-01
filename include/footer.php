@@ -5,6 +5,9 @@
  *Time: 13:38
  * File footer.php
  */
+
+//echo $year;
+//echo $name;
 ?>
 </body>
 </html>

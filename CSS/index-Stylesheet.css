@@ -1,41 +1,49 @@
 body
 {
-    margin:0;
+        margin:0;
 }
 
 aside
 {
-    text-align: left;
-    padding: 15px;
-    padding-top: 30px;
-    float: left;
-    background-color:lightgrey ;
-    margin-right: 10px;
-    height: 94vh;
+        text-align: left;
+        padding: 15px;
+        padding-top: 30px;
+        float: left;
+        background-color:lightgrey ;
+        margin-right: 10px;
+        height: 84vh;
 }
 
 h1
 {
-    background: red;
-    color: white;
-    margin: 0;
-    padding: 5px;
-    text-align: center;
+        background: red;
+        color: white;
+        margin: 0;
+        padding: 5px;
+        text-align: center;
 }
 
 header
 {
-    position: absolute;
-    top: 0px;
-    width: 100%;
+        position: absolute;
+        top: 0px;
+        width: 100%;
 }
 
 h2
 {
-    padding-left: 15px;
+        padding-left: 15px;
 }
 
 main
 {
-    padding-top:4% ;
+        padding-top:4% ;
+}
+
+footer
+{
+        position: absolute;
+        bottom: 0px;
+        height: 7vh;
+        background-color: aqua;
 }
