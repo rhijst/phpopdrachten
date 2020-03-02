@@ -106,7 +106,6 @@ include "../include/aside.php";
             else{
                 echo "er is iets mis gegaan probeer het opnie denk aan de spelling van het land en de hoofdletter.";
             }
-
             ?>
         </main>
 <?php

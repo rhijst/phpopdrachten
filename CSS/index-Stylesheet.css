@@ -11,7 +11,7 @@ aside
         float: left;
         background-color:lightgrey ;
         margin-right: 10px;
-        height: 84vh;
+        height: 90vh;
 }
 
 h1
@@ -44,6 +44,9 @@ footer
 {
         position: absolute;
         bottom: 0px;
-        height: 7vh;
-        background-color: aqua;
+        background-color: lightgrey;
+        height: 4vh;
+        width:100vw;
+        padding-top:10px;
+        text-align: center;
 }
