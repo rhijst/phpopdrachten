@@ -5,8 +5,8 @@
  *Time: 9:42
  *File aside.php
  */
-$base_url = "http://".$_SERVER['SERVER_NAME'].dirname($_SERVER["REQUEST_URI"].'?').'/';
-//$base_url = "http://localhost/phphopdrachten/"
+//$base_url = "http://".$_SERVER['SERVER_NAME'].dirname($_SERVER["REQUEST_URI"].'?').'/';
+$base_url = "http://localhost/phpopdrachten/";
 ?>
 <aside>
                 <h2>Menu</h2>
@@ -32,7 +32,7 @@ $base_url = "http://".$_SERVER['SERVER_NAME'].dirname($_SERVER["REQUEST_URI"].'?
                                 <a href="<?php echo $base_url;?>hoofdstuk3/opdracht_3-2.php">Opdracht 3.2</a>
                             </li>
                             <li>
-                                <a href="<?php echo $base_url;?>hoofdstuk3/opdracht_3-2.php">Opdracht 3.3</a>
+                                <a href="<?php echo $base_url;?>hoofdstuk3/opdracht_3-3.php">Opdracht 3.3</a>
                             </li>
                         </ul>
                     </li>
@@ -44,12 +44,12 @@ Hoofdstuk 4
                                 <a href="<?php echo $base_url;?>hoofdstuk4/opdracht_4-1.php">Opdracht 4.1</a>
                             </li>
                             <li>
-                                <a href="<?php echo $base_url;?>hoofdstuk4/opdracht_4-1.php">Opdracht 4.2</a>
+                                <a href="<?php echo $base_url;?>hoofdstuk4/opdracht_4-2.php">Opdracht 4.2</a>
                             </li>        <li>
-                                <a href="<?php echo $base_url;?>hoofdstuk4/opdracht_4-1.php">Opdracht 4.3</a>
+                                <a href="<?php echo $base_url;?>hoofdstuk4/opdracht_4-3.php">Opdracht 4.3</a>
                             </li>
                             <li>
-                                <a href="<?php echo $base_url;?>hoofdstuk4/opdracht_4-1.php">Opdracht 4.4</a>
+                                <a href="<?php echo $base_url;?>hoofdstuk4/opdracht_4-4.php">Opdracht 4.4</a>
                             </li>
                         </ul>
                     </li>
