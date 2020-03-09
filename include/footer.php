@@ -8,10 +8,12 @@
          * File footer.php
          */
         require "../hoofdstuk3/opdracht_3.3/variabelen.php";
-        echo $year;
+
+        echo "     " . $year . "    ";
+        echo $name;
+        echo $date;
         ?>
     <?php
-        echo $name;
     ?>
 </footer>
 </body>

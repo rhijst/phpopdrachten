@@ -8,7 +8,7 @@ include "../include/aside.php";
 <?php
 $date = date('H');
 
-if ($date <= '05')
+if ($date <= 05)
 {
     echo "goedenacht";
 }
@@ -26,3 +26,4 @@ elseif ( $date > 17 && $date <= 24)
 }
 include "../include/footer.php"
 ?>
+

@@ -6,6 +6,7 @@
  echo date("d-m- H:i");
  echo $month = date("m");
 
+ //een l voor de dag kleine l
  if ($month == '03')
  {
      echo "Het is vandaag lente";

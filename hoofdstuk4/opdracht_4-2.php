@@ -18,43 +18,43 @@ include "../include/aside.php";
 // Computertekenen - Van den Berg
 // Engels - Mitrovic
 
-$courseName = "ASP";
-$teacherName = "";
+$courseName = "engels";
+$docent = "";
 //hier maak ik een switch aan
 switch ($courseName)
 {
     case "PHP":
-        echo "Voor het vak ". $courseName ." je docent is Evers";
+        $docent = " Evers";
         break;
     case "Database SQL":
-        echo "Voor het vak ". $courseName ." je docent is van de Wetering";
+        $docent = " van de Wetering";
         break;
     case "Rekenen":
-        echo "Voor het vak ". $courseName ." je docent is Van Meer";
+        $docent = " Van Meer";
         break;
     case "Javascript":
-        echo "Voor het vak ". $courseName ." je docent is Van de Wetering";
+        $docent = " Van de Wetering";
         break;
     case "L&B":
-        echo "Voor het vak ". $courseName ." je docent is Lambrechts";
+        $docent = " Lambrechts";
         break;
     case "ASP":
-        echo "Voor het vak ". $courseName ." je docent is Gijsbrechts";
+        $docent = "Gijsbrechts";
         break;
     case "Modelleren":
-        echo "Voor het vak ". $courseName ." je docent is Gijsbrechts";
+        $docent = " Gijsbrechts";
         break;
     case "Digitale vaardigheden":
-        echo "Voor het vak ". $courseName ." je docent is Pielage";
+        $docent = " Pielage";
         break;
     case "computerteken":
-        echo "voor het vak ". $courseName ." je docent is van de Van den Berg";
+        $docent = " Van den Berg";
         break;
     case "engels":
-        echo "voor het vak ". $courseName ." je docent is Mitrovic";
+        $docent = " Mitrovic";
         break;
-    default:
-        echo "heb je een spelfout?";
+
 }
+echo "je docent is " . $docent . " en het vak is " . $courseName ;
 include "../include/footer.php"
 ?>
