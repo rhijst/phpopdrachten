@@ -1,6 +1,7 @@
 body
 {
         margin:0;
+
 }
 
 aside
@@ -14,7 +15,7 @@ aside
         height: 90vh;
 }
 
-h1
+header h1
 {
         background: red;
         color: white;
@@ -30,14 +31,11 @@ header
         width: 100%;
 }
 
-h2
-{
-        padding-left: 15px;
-}
-
 main
 {
-        padding-top:4% ;
+        height: 88vh;
+        margin-top: 4vh;
+        overflow-y:auto;
 }
 
 footer
