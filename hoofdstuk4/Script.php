@@ -1,22 +1,19 @@
 <?php
 $task2 = "lancering in: ";
-$text = "";
 $counter = 19;
 while ($counter >= 0)
 {
-    $text = $text . $counter . ",";
+    $task2 = $task2 . $counter . ",";
     $counter--;
 }
-
 //hier voeg ik een wit ruimte toe
 echo "<br>";
 
-$text2 ="";
+$task3b= "lancering in: ";
 $task3 ="";
 for ($teller = 19; $teller >= 0; $teller--)
 {
-    $text2 = $text2 . $counter . ",";
-    $counter--;
+    $task3 .=  $teller . ",";
 }
 
 // taak 3
