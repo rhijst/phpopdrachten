@@ -8,9 +8,9 @@ include "../include/aside.php";
     <?php
     for ($counter=0; $counter <= 7; $counter++)
         {
-            $ENDay = Date("D", strtotime("+$counter days"));
+            $ENDay = date("D", strtotime("+$counter days"));
             $NLDay = "";
-            $day = Date("d-m-Y", strtotime("+$counter days"));
+            $day = date("d-m-Y", strtotime("+$counter days"));
 
         switch ("ENDay")
         {
