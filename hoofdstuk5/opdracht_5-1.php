@@ -3,6 +3,9 @@ include "../include/header.php";
 include "../include/aside.php";
 ?>
 
+<!--GET in de ULR
+    POST persoonlijke gegevens
+-->
 <main id="wrapper">
     <h2>Uitwerkingen</h2>
     <div>
