@@ -56,18 +56,17 @@ include "../include/aside.php";
                     Leerjaar
                 </td>
                 <td>
-                    <input type="radio" name="Leerjaar" value="Radio 1">1e leerjaar
-
+                    <input type="radio" name="Leerjaar" value="leerjaar1">1e leerjaar
                 </td>
             </tr>
             <tr>
                 <td>
-                    <input type="radio" name="Leerjaar" value="Radio 2">2e leerjaar
+                    <input type="radio" name="Leerjaar" value="leerjaar2">2e leerjaar
                 </td>
             </tr>
             <tr>
                 <td>
-                    <input type="radio" name="Leerjaar" value="Radio 3">3e leerjaar
+                    <input type="radio" name="Leerjaar" value="leerjaar3">3e leerjaar
                 </td>
             </tr>
             <tr>

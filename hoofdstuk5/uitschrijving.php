@@ -61,7 +61,13 @@
         </td>
         <td>
             <?php
-            echo $_GET["succlas"];
+            if(isset($_GET["succlas"]))
+            {
+                echo "aanmelden voor klas";
+            }
+            else{
+                echo "wel succesklas";
+            }
             ?>
         </td>
     </tr>
@@ -71,15 +77,13 @@
         </td>
         <td>
             <?php
-            if($_GET["versys"]=="ja")
+            if(isset($_GET["versys"]))
             {
-            echo "verwijderen gegevens";
+                echo "gegevens moeten verwijderd woorden";
             }
-            else
-            {
-                echo "Gegevens hoeven niet te wordenvverwijderd";
+            else{
+                echo "gegevens bewaaren";
             }
-
             ?>
         </td>
     </tr>
@@ -90,16 +94,10 @@
     </tr>
     <tr>
         <td>
+<!--            empty  checken of hij word meegestuurd-->
+<!--            isset  checken of hij word meegestuurd-->
             <?php
-            if(isset($_GET['versys']) &&
-                $_GET['versys'] == 'Yes')
-            {
-                echo "Need wheelchair access.";
-            }
-            else
-            {
-                echo "Do not Need wheelchair access.";
-            }
+                echo $_GET["reden"]
             ?>
         </td>
     </tr>
