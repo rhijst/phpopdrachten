@@ -8,13 +8,12 @@ function getTeacherName(){
             if(isset($_GET['subject']) && $_GET['subject'] == 'php')
             {
                 $text = "Remco Evers";
-                return $text;
             }
             else
             {
                 $text = "Martijn Van De Wetering";
-                return $text;
             }
+    return $text;
 }
 
 
