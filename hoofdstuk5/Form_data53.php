@@ -103,7 +103,7 @@ include "Functies_53.php";
     <tr>
         <td>
             <?php
-            echo vergelijkOorzaken(echoKans());
+            echo vergelijkOorzaken(getKans1Op());
             ?>
         </td>
     </tr>

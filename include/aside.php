@@ -71,5 +71,13 @@ Hoofdstuk 5
                             </li>
                         </ul>
                     </li>
+                    <li>
+                        Eindopdracht
+                        <ul>
+                            <li>
+                                <a href="<?php echo $base_url;?>eindopdracht/login.php">Eindopdracht</a>
+                            </li>
+                        </ul>
+                    </li>
                 </ul>
             </aside>
