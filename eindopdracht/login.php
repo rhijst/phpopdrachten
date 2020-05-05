@@ -6,10 +6,16 @@ include "script.php";
 <main id="wrapper">
     <h2>Uitwerkingen</h2>
         <?php
-        //////poging weg haalen log in screen
-//            if ($ShowScreenLog == true)
-//            {
+        ////poging weg haalen log in screen
+
+            if ($ShowScreenLog == true)
+            {
 ////////////
+        /// // isset of hij bestaat
+        /// //empty chekcekn waarden leeg is of niet
+        ///
+        /// // is in URL
+        /// // post niet
         ?>
             <h1>
                 Bergheen
@@ -53,10 +59,9 @@ include "script.php";
             </form>
             <?php
                 ////pogin weg haalen van log in screen
-//        }
+        }
 //        else
 //        {
-
 //////////////////
 
 ////            dit werkte maar volgens mij is dit niet de goede manier
@@ -119,14 +124,9 @@ include "script.php";
 //         }
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
                 //niewe manier
-                if (isset($_GET["submit"]))
-                {
-                    foreach ($login as $key => $value)
-                    {
-                        if ($_GET["username"] == $key && $_GET["password"] == $value ||$_GET["username"] == NULL ||$_GET["password"] == NULL )
-                        {
-                            //iets uitvoeren als de gegevens goed zijn ingevuld.
-                            $ShowScreenLog = false;
+                if($ShowScreenLog == false)
+            {
+
                             echo "
                                     <h2>
                                         Berghoon
@@ -157,9 +157,7 @@ include "script.php";
                                         </p>
                                     </fieldset>
                                 ";
-                        }
-                    }
-                }
+            }
 ////poging weg haalen loginscreen
 //        }
     ?>

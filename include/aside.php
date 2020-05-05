@@ -12,7 +12,7 @@ $base_url = "http://localhost/phpopdrachten/";
                 <h2>Menu</h2>
                 <ul>
                     <li>
-                    Hoofdstuk 2
+                        Hoofdstuk 2
                         <ul>
                             <li>
                                 <a href="<?php echo $base_url;?>hoofdstuk2/opdracht_2-1.php">Opdracht 2.1</a>
@@ -23,7 +23,7 @@ $base_url = "http://localhost/phpopdrachten/";
                         </ul>
                     </li>
                     <li>
-                    Hoofdstuk 3
+                        Hoofdstuk 3
                         <ul>
                             <li>
                                 <a href="<?php echo $base_url;?>hoofdstuk3/opdracht_3-1.php">Opdracht 3.1</a>
@@ -36,10 +36,9 @@ $base_url = "http://localhost/phpopdrachten/";
                             </li>
                         </ul>
                     </li>
-
                     <li>
-Hoofdstuk 4
-<ul>
+                        Hoofdstuk 4
+                        <ul>
                             <li>
                                 <a href="<?php echo $base_url;?>hoofdstuk4/opdracht_4-1.php">Opdracht 4.1</a>
                             </li>
@@ -53,10 +52,9 @@ Hoofdstuk 4
                             </li>
                         </ul>
                     </li>
-
                     <li>
-Hoofdstuk 5
-<ul>
+                        Hoofdstuk 5
+                        <ul>
                             <li>
                                 <a href="<?php echo $base_url;?>hoofdstuk5/opdracht_5-1.php">Opdracht 5.1</a>
                             </li>
@@ -76,6 +74,17 @@ Hoofdstuk 5
                         <ul>
                             <li>
                                 <a href="<?php echo $base_url;?>eindopdracht/login.php">Eindopdracht</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        Hoofdstuk6
+                        <ul>
+                            <li>
+                                <a href="<?php echo $base_url;?>Hoofdstuk6/opdracht6.1.php">opdracht 6.1</a>
+                            </li>
+                            <li>
+                                <a href="<?php echo $base_url;?>Hoofdstuk6/opdracht6.2.php">opdracht 6.1</a>
                             </li>
                         </ul>
                     </li>

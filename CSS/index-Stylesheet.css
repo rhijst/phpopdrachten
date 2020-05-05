@@ -1,7 +1,7 @@
 body
 {
         margin:0;
-
+        overflow-x: hidden;
 }
 
 aside
@@ -43,8 +43,7 @@ footer
         position: absolute;
         bottom: 0px;
         background-color: lightgrey;
-        height: 4vh;
-        width:100vw;
-        padding-top:10px;
+        height: 7vh; /* van 4 naar 7 dat ziet er beter uit maar werkt niet. hulp vraagen.*/
+        width:100%;
         text-align: center;
 }

@@ -13,3 +13,18 @@ $login["Kwik"] = "Kwik";//9
 $login["Maroon"] = "Naroom";//10
 $login["1"] = "1";//11
 //print_r($login);
+
+
+// controleren of het ww goed is
+if (isset($_GET["submit"]))
+{
+    foreach ($login as $key => $value)
+    {
+        if ($_GET["username"] == $key && $_GET["password"] == $value ||$_GET["username"] == NULL ||$_GET["password"] == NULL )
+        {
+            //iets uitvoeren als de gegevens goed zijn ingevuld.
+            $ShowScreenLog = false;
+
+        }
+    }
+}

@@ -8,6 +8,8 @@
  *Time: 13:38
  *File header.php
  */
+//opdracht 6.sesion
+session_start();
 ?>
 <html lang="nl">
 
