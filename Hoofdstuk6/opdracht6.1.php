@@ -1,17 +1,22 @@
 <?php
 include "../include/header.php";
 include "../include/aside.php";
+//include "opdracht6.1/checklogin.php";
 ?>
     <main id="wrapper">
         <h2>
             hoofdstuk 6.1
         </h2>
-
-        <form method="post" action="opdracht6.1.php">
+        <?php
+        if (isset($_SESSION['username']))
+        {
+            echo "<p>u bent ingelogd </p>";
+        }
+        ?>
+        <form method="post" action="opdracht6.1/checklogin.php">
             <label for="username">
                 vul hier je naam in
             </label><br>
-
             <input type="text" name="username" id="username"><br>
 
             <br>

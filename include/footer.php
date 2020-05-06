@@ -20,15 +20,16 @@
 //    session_start();
     if (isset($_SESSION['username']))
     {
-        $bezoeker = $_SESSION['username'] . "&nbsp;<a href='/phpopdrachten/hoofdstuk6/loguit.php'>Loguit</a>";
+        $bezoeker =  $_SESSION['username'] . "&nbsp;<a href='../Hoofdstuk6/opdracht6.1/loguit.php'>Loguit</a>";
     }
     else
     {
-        $bezoeker = "onbekende bezoeker" . " <a href='/phpopdrachten/hoofdstuk6/opdracht61.php'>Login</a>";
+        $bezoeker = "onbekende bezoeker" . " <a href='../Hoofdstuk6/opdracht6.1.php'>Login</a>";
     }
 //    print vervolgens ook de $bezoeker zodat je de volgende visuele
 //    weergave in de pagina ziet
-    print_r($bezoeker);
+    print_r("welkom" . $bezoeker);
+
     ?>
 </footer>
 </body>
