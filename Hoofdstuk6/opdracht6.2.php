@@ -22,8 +22,11 @@ if(!isset($_GET['keuze']))
 
 <!--    ik weet niet of dit mocht of niet. maar ik kreeg het er niet uit en ik snap ook niet waarom hij dit doet.-->
     <h3>
-        De punten woorden pas bij gewerkt als je opnieuw klikt.
+        Let op:
     </h3>
+    <h4>
+        De punten woorden pas bij gewerkt als je opnieuw klikt.
+    </h4>
     <form id="gameFrm" method="get" action="opdracht6.2.php" onchange="document.getElementById('gameFrm').submit()">
         <div class="float">
             <input type="radio" onchange="document.getElementById('gameFrm').submit();" name="keuze" value="steen">
