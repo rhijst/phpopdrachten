@@ -12,12 +12,10 @@ if(!isset($_GET['keuze']))
     $_GET['keuze'] = "";
 }
 //checken voor 5 destroy
-//
-
 ?>
 <main id="wrapper" >
     <h2>
-        hoofdstuk 6.1
+        hoofdstuk 6.2
     </h2>
 
 <!--    ik weet niet of dit mocht of niet. maar ik kreeg het er niet uit en ik snap ook niet waarom hij dit doet.-->
@@ -85,10 +83,10 @@ if(!isset($_GET['keuze']))
         * papier verliest schaar
     */
         //kijken wie er gewonnen heeft
-        if (($_GET['keuze'])=="steen" && $computerkeuze == "schaar"||
-            ($_GET['keuze'])=="papier" && $computerkeuze == "steen"||
-            ($_GET['keuze'])=="schaar" && $computerkeuze == "papier")
-        {;
+        if ($_GET['keuze']=="steen" && $computerkeuze == "schaar"||
+            $_GET['keuze']=="papier" && $computerkeuze == "steen"||
+            $_GET['keuze']=="schaar" && $computerkeuze == "papier")
+        {
             $_SESSION['user1'] +=1;
         }
         elseif(($_GET['keuze'])=="steen" && $computerkeuze == "papier"||
@@ -120,10 +118,6 @@ if(!isset($_GET['keuze']))
 
     ?>
 </main>
-
-
-
-
 <?php
 include "../include/footer.php"
 ?>

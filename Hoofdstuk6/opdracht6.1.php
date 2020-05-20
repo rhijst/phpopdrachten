@@ -31,5 +31,5 @@ include "../include/aside.php";
     </main>
 
 <?php
-include "../include/footer.php"
+include "../include/footer.php";
 ?>

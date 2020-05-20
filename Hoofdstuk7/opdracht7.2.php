@@ -4,17 +4,13 @@ include "../include/aside.php";
 ?>
 <main id="wrapper">
     <h2>
-        opdracht 7.1
+        opdracht 7.2
     </h2>
 <?php
-
 // Open de database connectie en ODBC driver
-try
-{
+try {
     $pdo = new PDO("odbc:odbc2sqlserver");
-}
-catch (PDOException $e)
-{
+} catch (PDOException $e) {
 //    als de code hierboven niet is geluk voor hij dit uit.
     echo "<h1>Database error:</h1>";
     echo $e->getMessage();
@@ -28,15 +24,12 @@ echo "database connectie gelukt";
 
 
 // Uitvoeren van een SQl query
-try
-{
+try {
     // Query schrijven
     $sql = 'SELECT * FROM dbo.joke';
     // Query uitvoerend
     $result = $pdo->query($sql);
-}
-catch (PDOException $e)
-{
+} catch (PDOException $e) {
     echo 'Er is een probleem met ophalen van jokes: ' . $e->getMessage();
     exit();
 }
@@ -44,26 +37,41 @@ catch (PDOException $e)
 $aJokes = array();
 // Door de results heen loopen via een while
 //fatche is gegevens is ophalen ui tde database
-while ($row = $result->fetch(PDO::FETCH_ASSOC))
-{
+while ($row = $result->fetch(PDO::FETCH_ASSOC)) {
     // Result wegschrijven in de $aJokes array
     $aJokes[] = $row;
 }
 
-///////////////////////////////////////////////////////////////
-///een <br> tussen zetten voor leesbaarheid.
-    echo "<br>";
-/// ///////////////////////////////////////////////////////////
-// stap 6
-//Note een staat denk ik een foutje in stap 6 stap 1 onder het script van stap 4.
-// jokes toonen
-echo "<pre>";
-print_r($aJokes);
-echo "<pre>";
-//echo $aJokes;
-
-//ik weet niet of het goed gegaan is want de array blijft leeg
 ?>
+
+<!--    bovekant van tabel aanmaken-->
+<table id="tOdrachtZevenPuntTwee">
+    <tr>
+        <th>
+            ID
+        </th>
+        <th>
+            Joketext
+        </th>
+        <th>
+            Jokeclou
+        </th>
+        <th>
+            Jokedate
+        </th>
+    </tr>
+    <?php
+    //onderkant van tabel word gemaakt en de juiste data word er automatisch in gezet.
+    foreach ($aJokes as $inhoud)
+    {
+        echo "<tr><td>".$inhoud['id'] ."</td><td>".$inhoud['joketext'] ."</td><td>".$inhoud['jokeclou'] ."</td><td>".$inhoud['jokedate'] ."</td></tr>";
+    }
+    ?>
+</table>
 </main>
+
+
+
 <?php
 include "../include/footer.php";
+?>

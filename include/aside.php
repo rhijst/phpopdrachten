@@ -84,7 +84,18 @@ $base_url = "http://localhost/phpopdrachten/";
                                 <a href="<?php echo $base_url;?>Hoofdstuk6/opdracht6.1.php">opdracht 6.1</a>
                             </li>
                             <li>
-                                <a href="<?php echo $base_url;?>Hoofdstuk6/opdracht6.2.php">opdracht 6.1</a>
+                                <a href="<?php echo $base_url;?>Hoofdstuk6/opdracht6.2.php">opdracht 6.2</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        Hoofdstuk7
+                        <ul>
+                            <li>
+                                <a href="<?php echo $base_url;?>Hoofdstuk7/opdracht7.1.php">opdracht 7.1</a>
+                            </li>
+                            <li>
+                                <a href="<?php echo $base_url;?>Hoofdstuk7/opdracht7.2.php">opdracht 7.2</a>
                             </li>
                         </ul>
                     </li>

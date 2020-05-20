@@ -2,7 +2,8 @@
 body
 {
         margin:0;
-        overflow-x: hidden;
+        /*overflow-x: hidden;*/
+        overflow-y: hidden;
 }
 
 aside
@@ -37,12 +38,14 @@ main
         height: 88vh;
         margin-top: 4vh;
         overflow-y:auto;
+        overflow-x:auto;
 }
 
 footer
 {
         position: absolute;
         bottom: 0px;
+        padding-top: 8px;
         background-color: lightgrey;
         height: 7vh;
         width:100%;
@@ -53,5 +56,16 @@ footer
 {
         height: 80px;
         width: 80px;
+}
+
+#tOdrachtZevenPuntTwee
+{
+        border: 1px solid black;
+        margin-right: 10px;
+
+}
+#tOdrachtZevenPuntTwee td
+{
+        padding: 10px;
 }
 
