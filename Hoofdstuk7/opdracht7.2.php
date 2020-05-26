@@ -41,9 +41,12 @@ while ($row = $result->fetch(PDO::FETCH_ASSOC)) {
     // Result wegschrijven in de $aJokes array
     $aJokes[] = $row;
 }
-
 ?>
-
+<!--
+    BELANGIJKE NOTE
+    *ik had wat probleemen met gegevens in de database voeren.
+    daarom zijn de ID`s zo hoog.
+-->
 <!--    bovekant van tabel aanmaken-->
 <table id="tOdrachtZevenPuntTwee">
     <tr>

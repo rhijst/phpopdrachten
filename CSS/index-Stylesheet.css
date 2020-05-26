@@ -62,10 +62,15 @@ footer
 {
         border: 1px solid black;
         margin-right: 10px;
-
 }
 #tOdrachtZevenPuntTwee td
 {
         padding: 10px;
+}
+
+#tOdrachtZevenPuntDrie, #tOdrachtZevenPuntDrie th
+{
+        border: 1px solid black;
+        margin-right: 10px;
 }
 
